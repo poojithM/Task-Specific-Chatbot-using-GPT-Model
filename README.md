@@ -1,4 +1,4 @@
-# AI Assistant
+# Gen AI Assistant
 
 This project is a **task-specific AI assistant** designed to help users with **Generative AI (Gen AI)**, **neural networks**, and **machine learning** concepts. It utilizes advanced AI technologies to provide clear explanations, solve problems effectively, and deliver an engaging and educational conversational experience while remembering past messages through conversational memory.
 
