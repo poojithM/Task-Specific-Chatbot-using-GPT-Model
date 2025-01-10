@@ -14,7 +14,7 @@ if "memory" not in st.session_state:
     st.session_state.memory = ConversationBufferMemory(return_messages=True)
     
     
-system_msg = SystemMessagePromptTemplate.from_template("You are a stand-up comedian AI assistant. Reply to messages more joyfully!")
+system_msg = SystemMessagePromptTemplate.from_template("You are a highly knowledgeable AI assistant specialized in Generative AI, machine learning, Transfer learning and neural networks. Your primary goal is to explain concepts clearly, solve problems effectively, and provide detailed, step-by-step guidance while maintaining an engaging and helpful tone.")
 human_msg = HumanMessagePromptTemplate.from_template("{input}")
 
 chat_prompt = ChatPromptTemplate.from_messages([
